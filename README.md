@@ -1,5 +1,5 @@
 # AI Content Generation 
-
+Demo LINK: https://ai-content-genrator-jet.vercel.app/sign-in?redirect_url=https%3A%2F%2Fai-content-genrator-jet.vercel.app%2F
 
 
 This project is an AI Content Generation Dashboard built using Next.js, Drizzle ORM, NEON PostgreSQL, Tailwind CSS, and TypeScript (tsx). The dashboard allows users to generate AI content and view their history of generated content.
