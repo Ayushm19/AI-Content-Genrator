@@ -154,7 +154,7 @@ export default [
     },
     
     {
-        name: 'Product Description Generator',
+        name: 'Product Description Gen',
         desc: 'AI tool that generates product descriptions based on the provided information.',
         category:'Others',
         icon: 'https://cdn-icons-png.flaticon.com/128/4129/4129571.png',
@@ -171,6 +171,29 @@ export default [
                 label: 'Enter product features (optional)',
                 field: 'textarea',
                 name: 'features',
+            }
+        ]
+    },
+
+    {
+        name:'Text Enchancer',
+        desc:'Ai tool that enhance your text or your content.',
+        category:'content',
+        icon:'https://cdn-icons-png.flaticon.com/128/3790/3790171.png',
+        aiPrompt:'Enhance my given content or text ',
+        slug:'text-enhancer',
+        form:[
+            {
+                label:'Enter the topic you want to enhance text for',
+                field:'input',
+                name:'Topic',
+                required:true,
+            },
+            {
+                label:'Enter Text or content you want to enhance',
+                field:'textarea',
+                name:'outline',
+                required:true,
             }
         ]
     }
