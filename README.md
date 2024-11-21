@@ -29,18 +29,12 @@ This project is an AI Content Generation Dashboard built using Next.js, Drizzle 
 
 ### Installation
 
-1. **Clone the Repository**
-    \`\`\`bash
-    git clone https://github.com/Varunv003/Ai-content_generator-nextjs
-    cd ai-content-generation-dashboard
-    \`\`\`
+1. **Install Dependencies**
+    ```shell
+   npm i
+   ```
 
-2. **Install Dependencies**
-    \`\`\`bash
-    npm install
-    \`\`\`
-
-3. **Set Up Environment Variables**
+2. **Set Up Environment Variables**
     Create a \`.env.local\` file in the root directory and add the following environment variables:
     \`\`\`env
     NEXT_PUBLIC_DRIZZLE_DB_URL=your-neon-postgresql-url
@@ -52,17 +46,17 @@ This project is an AI Content Generation Dashboard built using Next.js, Drizzle 
     NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
     \`\`\`
 
-4. **Run Database Migrations**
+3. **Run Database Migrations**
     \`\`\`bash
     npm run db:migrate
     \`\`\`
 
-5. **Start the Development Server**
+4. **Start the Development Server**
     \`\`\`bash
     npm run dev
     \`\`\`
 
-6. **Visit the Application**
+5. **Visit the Application**
     Open your browser and go to \`http://localhost:3000\`.
 
 ## Folder Structure
